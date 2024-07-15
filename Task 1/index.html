@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 1-Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Forum&family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">
+            <img src="logo.png" alt="">
+        </a>
+        <ul class="navlinks">
+            <a href="#">About</a>
+            <a href="#">Work</a>
+            <a href="#">Exhibitions</a>
+            <a href="#">Contact</a>
+        </ul>
+
+        <div class="nav-side">
+            <button class="button"> say hello
+            </button>
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="hero-text">
+            <h4 data-aos="fade-up" data-aos-duration="1500">Carving Art</h4>
+            <h1 data-aos="zoom-in-left" data-aos-duration="1500" data-aos-delay="200">Bringing <br>Wood to Life</h1>
+            <p data-aos="fade-right" data-aos-duration="1500" data-aos-delay="300">Expertly carved wooden sculptures and figurines that showcases the natural beauty and versatility of wood</p>
+        </div>
+        <div class="hero-img" data-aos="zoom-in" data-aos-duration="1500" >
+            <img src="main.png" alt="">
+        </div>
+    </section>
+    <div class="button-box" data-aos="zoom-out" data-aos-duration="1500" data-aos-delay="500">
+        <a href="#"> <i class="ri-arrow-down-line"></i></a>
+    </div>
+    <div class="social">
+        <a href="#"data-aos="fade-in" data-aos-duration="1500" data-aos-delay="500"> <i class="ri-facebook-fill"></i></a>
+        <a href="#"data-aos="fade-in" data-aos-duration="1500" data-aos-delay="500"><i class="ri-instagram-line"></i></a>
+        <a href="#"data-aos="fade-in" data-aos-duration="1500" data-aos-delay="500"><i class="ri-dribbble-line"></i></a>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init(
+        {
+            offset:1,
+        }
+      );
+    </script>
+</body>
+</html>
